@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3177","test_registr","tests","2026-01-25","passed","2026-01-25","","test_registr_page","",""
+"","956","test_transfer_successfully","tests","2026-01-25","passed","2026-01-25","","test_transfer_page","",""
+"","50201","test_login","tests","2026-01-25","broken","2026-01-25","","test_login_page","",""
+"","819","test_transfer_by_account_success","tests","2026-01-25","passed","2026-01-25","","test_transfer_by_account_success","",""

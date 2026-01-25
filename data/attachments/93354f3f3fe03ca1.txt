@@ -1,0 +1,9 @@
+2026-01-25 14:57:01.379 | INFO     | pages.base_page:open:24 - Open page: https://demoqa.ru/bank/register
+2026-01-25 14:57:02.335 | INFO     | pages.base_page:fill:54 - Fill ('id', 'firstName') with Nik
+2026-01-25 14:57:03.734 | INFO     | pages.base_page:fill:54 - Fill ('id', 'lastName') with Kin
+2026-01-25 14:57:03.864 | INFO     | pages.base_page:fill:54 - Fill ('id', 'email') with test@test.com
+2026-01-25 14:57:04.064 | INFO     | pages.base_page:fill:54 - Fill ('id', 'username') with HBn
+2026-01-25 14:57:04.179 | INFO     | pages.base_page:fill:54 - Fill ('id', 'password') with password
+2026-01-25 14:57:04.319 | INFO     | pages.base_page:fill:54 - Fill ('id', 'confirmPassword') with password
+2026-01-25 14:57:04.445 | INFO     | pages.base_page:click:35 - Click: ('css selector', '#root > div > div.min-h-screen.bg-slate-50.flex.flex-col.justify-center.py-12.sm\\:px-6.lg\\:px-8 > div.mt-8.sm\\:mx-auto.sm\\:w-full.sm\\:max-w-md > div > form > div.flex.items-center.p-6.pt-0 > button')
+2026-01-25 14:57:04.543 | INFO     | pages.base_page:wait_for_exact_url:70 - Waiting for exact URL: https://demoqa.ru/bank/register
