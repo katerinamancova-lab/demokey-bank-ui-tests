@@ -1,0 +1,10 @@
+2026-01-25 12:29:04.710 | INFO     | pages.base_page:open:24 - Open page: https://demoqa.ru/bank/login
+2026-01-25 12:29:05.777 | INFO     | pages.base_page:fill:54 - Fill ('id', 'username') with testuser
+2026-01-25 12:29:07.206 | INFO     | pages.base_page:fill:54 - Fill ('id', 'password') with password
+2026-01-25 12:29:07.340 | INFO     | pages.base_page:click:35 - Click: ('css selector', '#root > div > div.min-h-screen.bg-slate-50.flex.flex-col.justify-center.py-12.sm\\:px-6.lg\\:px-8 > div.mt-8.sm\\:mx-auto.sm\\:w-full.max-w-5xl > div > div:nth-child(1) > div > form > div.flex.items-center.p-6.pt-0 > button')
+2026-01-25 12:29:07.419 | INFO     | pages.base_page:open:24 - Open page: https://demoqa.ru/bank/transfer
+2026-01-25 12:29:07.674 | INFO     | pages.base_page:click:35 - Click: ('xpath', "//button[contains(normalize-space(.), 'По сч')]")
+2026-01-25 12:29:08.340 | INFO     | pages.base_page:fill:54 - Fill ('css selector', '[data-testid="transfer-recipient-input"]') with 220012345678
+2026-01-25 12:29:08.509 | INFO     | pages.base_page:fill:54 - Fill ('css selector', '[data-testid="transfer-amount-input"]') with 10
+2026-01-25 12:29:08.667 | INFO     | pages.base_page:click:35 - Click: ('xpath', "//button[@type='submit']")
+2026-01-25 12:29:08.742 | INFO     | pages.base_page:wait_visible:66 - Wait visible: ('xpath', "//*[contains(., 'Успеш') or contains(., 'отправ') or contains(., 'Перевод') or contains(., 'выполн')]")

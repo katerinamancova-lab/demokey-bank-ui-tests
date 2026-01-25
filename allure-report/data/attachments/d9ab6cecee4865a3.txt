@@ -1,0 +1,2 @@
+2026-01-25 12:28:39.214 | INFO     | pages.base_page:open:24 - Open page: https://demoqa.ru/bank/register
+2026-01-25 12:28:40.752 | INFO     | pages.base_page:fill:54 - Fill ('id', 'firstName') with Nik
