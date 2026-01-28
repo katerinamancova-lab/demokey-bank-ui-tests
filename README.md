@@ -1,24 +1,46 @@
-# UI автотесты демо-банка (demoqa.ru)
+# UI Test Automation — Demo Bank
 
-## 📊 Allure Report (GitHub Pages)
+UI автотесты для демо-банковского приложения (demoqa.ru).
+Проект демонстрирует навыки автоматизации UI-тестирования с использованием Selenium и Pytest.
+
+📊 Allure Report (GitHub Pages)  
 🔗 https://katerinamancova-lab.github.io/demokey-bank-ui-tests/
 
-## 🧪 Стек
+---
+
+## 🧪 Tech Stack
 - Python
 - Pytest
 - Selenium
-- Page Object Model
+- Page Object Model (POM)
 - Allure
 
-## ✅ Что покрыто
+---
+
+## ✅ Test Coverage
 - Login
 - Registration
-- Transfer by name
-- Transfer by account
+- Transfer by user name
+- Transfer by account number
 
-## ▶️ Как запустить проект локально
+---
+
+## ▶ Run tests locally
+
+Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+Run tests:
+
 pytest --alluredir=allure-results --clean-alluredir
+
+Generate Allure report:
+
 allure generate allure-results -o allure-report --clean
 allure serve allure-report
+
+📌 Notes
+
+The project is built for demonstration and learning purposes.
+All tests are written using Page Object Model and include reporting via Allure.
