@@ -1,46 +1,79 @@
 # UI Test Automation — Demo Bank
 
-UI автотесты для демо-банковского приложения (demoqa.ru).
-Проект демонстрирует навыки автоматизации UI-тестирования с использованием Selenium и Pytest.
+Проект по автоматизации UI-тестирования демо-банковского веб-приложения.  
+Демонстрирует практические навыки написания автотестов с использованием **Selenium**, **Pytest** и **Page Object Model**.
 
-📊 Allure Report (GitHub Pages)  
+📊 **Allure-отчёт (GitHub Pages)**  
 🔗 https://katerinamancova-lab.github.io/demokey-bank-ui-tests/
 
 ---
 
-## 🧪 Tech Stack
-- Python
-- Pytest
-- Selenium
-- Page Object Model (POM)
-- Allure
+## 🧪 Стек технологий
+
+- Python  
+- Pytest  
+- Selenium WebDriver  
+- Page Object Model (POM)  
+- Allure Reports  
+- Git / GitHub  
+- GitHub Actions (CI)
 
 ---
 
-## ✅ Test Coverage
-- Login
-- Registration
-- Transfer by user name
-- Transfer by account number
+## ✅ Покрытие автотестами
+
+- Авторизация пользователя (Login)
+- Регистрация нового пользователя (Registration)
+- Денежные переводы:
+  - по имени пользователя
+  - по номеру счёта
+- Проверка позитивных и негативных сценариев
+- Проверка сообщений об ошибках
 
 ---
 
-## ▶ Run tests locally
+## 🔁 CI / GitHub Actions
 
-Install dependencies:
+В проекте настроен базовый **CI с использованием GitHub Actions**.
+
+Реализовано:
+- автоматический запуск тестов при каждом `push` и `pull request`
+- установка зависимостей
+- запуск автотестов через `pytest`
+
+Конфигурация CI находится в файле:
+
+.github/workflows/tests.yml
+
+
+> UI-тесты с браузером в основном запускаются локально.  
+> CI используется для проверки стабильности проекта и автотестов.
+
+---
+
+## ▶ Запуск проекта локально
+
+### Установка зависимостей
+
 ```bash
 pip install -r requirements.txt
-
-Run tests:
-
+Запуск автотестов с генерацией Allure-результатов
 pytest --alluredir=allure-results --clean-alluredir
-
-Generate Allure report:
-
+Просмотр Allure-отчёта
 allure generate allure-results -o allure-report --clean
 allure serve allure-report
+📌 Примечания
+Проект создан в учебных и демонстрационных целях
 
-📌 Notes
+Все тесты реализованы с использованием Page Object Model
 
-The project is built for demonstration and learning purposes.
-All tests are written using Page Object Model and include reporting via Allure.
+Для отчётности используется Allure
+
+CI настроен через GitHub Actions
+
+👩‍💻 Автор
+Екатерина Манькова
+QA Automation Engineer (Junior)
+
+🔗 GitHub:
+https://github.com/katerinamancova-lab
